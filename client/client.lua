@@ -106,7 +106,7 @@ function NotifyPerms(reason)
         if reason == 1 then
             ESX.ShowNotification(Config.NoPerms)
         else
-            ESX.ShowNotification(Config.Blak)
+            ESX.ShowNotification(Config.Blacklisted)
         end
     end
 end
