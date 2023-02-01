@@ -9,6 +9,8 @@
                                   |___/                           
 --]]
 
+if Config.Notify == 'esx' then ESX = exports['es_extended']:getSharedObject() end
+
 -- Main Menu Options --
 allowed = false
 
